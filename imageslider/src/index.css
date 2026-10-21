@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f3f4f6;
+  color: #134e4a;
+}
+
+.slider {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #ccfbf1;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.12), 0 4px 6px -4px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0f766e;
+}
+
+.header p {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.controls button {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #134e4a;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.controls button:hover {
+  background: #f0fdfa;
+}

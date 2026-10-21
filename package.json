@@ -1,0 +1,9 @@
+{
+  "name": "imageslider-root",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter imageslider dev",
+    "build": "pnpm --filter imageslider build",
+    "preview": "pnpm --filter imageslider preview"
+  }
+}
